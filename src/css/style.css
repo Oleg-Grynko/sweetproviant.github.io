@@ -1,0 +1,159 @@
+/**/@import url(''); /*зависимость, файл css*/
+/**
+box-sizing: border-box;
+}*/
+/*{
+	margin: 0;*/*/
+ /*@media (orientation: portrait) { скрытие блока 
+    	display: none;
+    }*/
+   /* @media (max-width: 576px) { 
+    	margin-top: 50px;
+    }
+    @media (max-width: 567px) {
+		background-color: gray;
+	}
+*/
+.container-fluid {
+	background-color: rgb(242, 232, 222);
+	box-sizing: border-box;
+	
+}	
+
+#row1 {
+/*	border: 2px solid red;*/
+	background-color: rgb(242, 232, 222);
+	margin-right: 0px;
+	margin-left: 0px;
+	@media (max-width: 580px) {
+		background: url(../img/fon/1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 700px;
+		
+	}
+
+}
+.section1block1 {
+/*	background-color: rgb(128, 128, 255);*/
+	height: 150px;
+	border-radius: 20px;
+	@media (max-width: 576px) {
+		}
+}
+.logo {
+/*	border: 2px solid black;*/
+
+    height: 150px;
+	max-width: 200px;
+	min-width: 170px;
+    margin-left: 0px;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    @media (max-width: 576px) {
+    	margin-left: 30%;
+        margin-right: 30%;
+
+        }
+
+}
+.logo_img {
+	border-radius: 20px;
+	}
+.logo_mob {
+	border-radius: 34px;
+	left: 100%;
+	opacity: 1;
+}
+
+
+.section1block2 {
+/*    background-color: rgb(128, 255, 128);*/*/
+	height: 150px;
+	border-radius: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+	@media (max-width: 576px) {
+		height: auto;
+	}
+}
+
+.tel {
+/*	border: 2px solid black;*/
+	height: 25px;
+	display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#a1 {
+	margin-bottom: 5px;
+}
+.navi {
+/*	border: 2px solid blue;*/
+    margin-top: 20px;
+	@media (max-width: 600px) {
+		margin-left: 35%;
+		margin-right: 30%;
+
+		
+	}
+}
+
+#main {
+	font-size: 20px;
+	border: 2px solid black;
+    height: auto;
+	display: flex;
+    align-items: center;
+    @media (max-width: 580px) {
+    	margin-top: 30%;
+    	margin-bottom: 40%;
+    }
+    
+}
+#about {
+	font-size: 20px;
+	border: 2px solid black;
+    text-align: right;
+	height: auto;
+	display: flex;
+    align-items: center;
+    @media (max-width: 580px) {
+    	margin-top: 10%;
+    	margin-bottom: 40%;
+    }
+}
+#catalo {
+	font-size: 20px;
+	border: 2px solid black;
+	height: auto;
+	display: flex;
+    align-items: center;
+    @media (max-width: 580px) {
+    	margin-top: 10%;
+    	margin-bottom: 40%;
+    }
+}
+#contact {
+	font-size: 20px;
+	border: 2px solid black;
+	height: auto;
+	display: flex;
+    align-items: center;
+    @media (max-width: 580px) {
+    	margin-top: 10%;
+    	margin-bottom: ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
